@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  box-shadow: #000 0px 0px 5px 0px;
+  border-bottom: #000 1px solid;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 26px;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  & img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+
+  & .notification {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    border-radius: 99px;
+    background: transparent;
+    border: none;
+
+    & img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  & .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+}
+
+.notification:hover {
+  background: #484848;
+  transition: 0.25s;
+}
+
+.notification:active {
+  background: #404040;
+}
