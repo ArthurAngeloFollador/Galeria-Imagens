@@ -1,5 +1,5 @@
 import React, { type JSX } from "react";
-import { ModalStyle } from "../../style.tsx";
+import { ModalStyle } from "./modal.style.tsx";
 
 interface ModalProps {
   isOpen: boolean;

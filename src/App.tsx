@@ -1,5 +1,4 @@
 // import { useState } from "react";
-import "./App.css";
 import SinteticalHeader from "./components/header/sinteticalHeader.tsx";
 import BottomComponent from "./components/bottom/Bottom.tsx";
 

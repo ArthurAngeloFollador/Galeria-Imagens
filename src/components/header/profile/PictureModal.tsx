@@ -1,4 +1,4 @@
-import { PictureModalStyle } from '../../style'
+import { PictureModalStyle } from "./pictureModal.style.tsx";
 import React, { type JSX } from "react";
 
 interface ModalProps {
@@ -7,16 +7,15 @@ interface ModalProps {
 }
 
 function PictureModal({ isOpen, children }: ModalProps): JSX.Element | null {
-
   if (!isOpen) {
     return null;
   }
 
-    return (
-        <PictureModalStyle>
-            {children}
-        </PictureModalStyle>
-    )
+  return (
+    <>
+      <PictureModalStyle>{children}</PictureModalStyle>;
+    </>
+  );
 }
 
-export default PictureModal
+export default PictureModal;

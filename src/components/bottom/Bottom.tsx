@@ -1,4 +1,4 @@
-import { Bottom } from "../../style.tsx";
+import { Bottom } from "./bottom.styles"; 
 
 export default function BottomComponent() {
   return (
